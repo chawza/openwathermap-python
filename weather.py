@@ -1,6 +1,7 @@
 """
 TItle: Weather Forecast news Application
 Author: Nabeel Kahlil Maulana
+github: https://github.com/chawza/openwathermap-python
 
 This program will show openwathermap.org weather forcast on cli interface. It request an API endpoint to retrieve
 list of 5 upcoming days weather forecast.
