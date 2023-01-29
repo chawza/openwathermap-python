@@ -15,6 +15,9 @@ for more information.
 to run the program, use python3 to use this command
 `python weather.py`
 
+Then something like this should show
+![example program](example.png)
+
 ## Important Note
 - it only show the first 3 hour of day cylce on each day
 - use `fetch_and_save_forcast()` function to save the data, then use `load_locale` to load the saved data.

@@ -78,7 +78,7 @@ def process_weather_data(weather_list) -> List[Forecast]:
   return forcasts 
 
 def filter_data_per_day(weather_list: List[Forecast]):
-  weather_list.sort(key=lambda x : x.dt, reverse=True)
+  weather_list.sort(key=lambda x : x.dt)
 
   day_list = []
   forcasts = []
